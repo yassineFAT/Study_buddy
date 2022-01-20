@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato');
+:root{
+    --primaryred:#ff424f;
+    --secondaryred:#f84735;
+    --lightblack:#222b31;
+    --darkblack:#191c1f;
+    --mainfont:'Dancing Script', cursive;
+    --secondfont: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family:'Lato', sans-serif;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.fullcontent{
+    
+    width:100%;
+    min-height: 100vh;
+    height: auto;
+    padding:6% 10% 5% 10%;
+    background-image: url(../../../assets/img/registrybackground.jpeg);
+    background:linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.70)), url(../../../assets/img/registrybackground.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+}
+.headings{
+     /* background:red;  */
+    flex-basis: 65%;
+    margin-right: 5%;
+}
+.headings h1{
+    font-size: 4rem;
+    font-family:var(--mainfont);
+    color:white;
+    margin:3% 0% 3% 0%;
+}
+.headings h2{
+	font-size:1.2rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
+.formbox{
+    background:rgb(34,43,49,0.7);
+    color:white;
+    border-radius: 15px;
+    border-color: green;
+    
+    flex-basis: 35%;
+    border-top: 10px solid var(--secondaryred);
+    padding:2% 3%;
+}
+.formbox *{
+    margin: 0;
+}
+.formbox h3{
+    font-family: var(--mainfont);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.formbox form label{
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0.3rem;
+}
+.formbox form .asd{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    background: transparent;
+    height: 2.8rem;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+form .mainbox{
+    color: white;
+    box-shadow: none;
+    background: green;
+    height: 2.8rem;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+.iconImg{
+    align-items: center;
+    width: 15%;
+}
+a .mainbox{
+    margin-top: 5px;
+    margin: 0;
+    padding: 2%;
+}
